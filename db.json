@@ -1,4 +1,19 @@
 {
+  "api": [
+    "v1": [
+      "users": [
+        "get-user-by-mail": {
+            "status": "success",
+            "data": [
+                {
+                    "email": "gkibuhguy@gmail.com",
+                    "firstLogin": 1
+                }
+            ]
+        } 
+      ]
+    ]
+  ],
   "posts": [
     { "id": 1, "title": "Post 1" },
     { "id": 2, "title": "Post 2" },
