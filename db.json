@@ -1,29 +1,17 @@
 {
-  "api": [
-    "v1": [
+  "api": {
+    "v1": {
       "users": [
-        "get-user-by-mail": {
+        {
+          "get-user-by-mail": {
             "status": "success",
-            "data": [
-                {
-                    "email": "gkibuhguy@gmail.com",
-                    "firstLogin": 1
-                }
-            ]
-        } 
+            "data": {
+              "email": "gkibuhguy@gmail.com",
+              "firstLogin": 1
+            }
+          }
+        }
       ]
-    ]
-  ],
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+    }
   }
 }
